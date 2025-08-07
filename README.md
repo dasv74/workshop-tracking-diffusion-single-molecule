@@ -18,16 +18,17 @@ conda activate spt-diffusion
 #### Installing additional packages
 ```
 pip install notebook
-pip scikit-image
-pip install andi-datasets
-pip install tifffile
+pip install scikit-image
+pip install andi-datasets deeptrack
 ```
 
+## Practice A - Modeling Molecular Diffusion
 
-## Practice A - Simulation of Brownian Motion
-
-#### Notebook `simulation_brownian_motion.ipynb`
+#### `simulation_brownian_motion.ipynb`
 - Isotropic Brownian Motion
 - Anisotropic Brownian Motion
 - Non-homogeneous Brownian Motion
 
+#### `simulation_anamalous_diffusion.ipynb`
+- Test the 5 models provided by the ANDI Challenge
+- Reference: https://github.com/AnDiChallenge/andi_datasets
