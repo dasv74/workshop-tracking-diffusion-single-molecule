@@ -24,7 +24,7 @@ By the end, you’ll understand the full SMLM/SPT pipeline—localization, track
 <img src="icons/icon.png" width="50"/> ![Badge](https://img.shields.io/badge/Installation-FF1010?style=for-the-badge)
 
 
-### Setting-up Fiji
+### Setting-up Fiji and plugins
 
 - Download Fiji from the web site: [https://fiji.sc/](https://fiji.sc/)
 - Update Fiji
@@ -33,19 +33,29 @@ By the end, you’ll understand the full SMLM/SPT pipeline—localization, track
 - Install GDSC: from the update WebSite of Fiji Help > Update ...
 
 
-### Setting-up a Python environment
+### Setting-up an environment to run Jupyter Notebooks
 
-##### Creating a Python environment
+##### Running on a Google Colab server
+
+- Connect to a Google account (gmail)
+- Run [https://colab.research.google.com](https://colab.research.google.com)
+- Upload the notebooks from this Github repo
+- File > Save a  copy in Drive
+
+##### Running on a local machine (conda)
+
+Run the following command on the terminal:
 ```
 conda create --name spt-diffusion python=3.11
 conda activate spt-diffusion
-```
-##### Installing additional packages
-```
+
 pip install notebook
 pip install scikit-image scikit-learn
 pip install andi-datasets deeptrack
+
+jupyter notebook
 ```
+
 <br>
 
 <img src="icons/red-line.svg" width="100%" height="2" alt="red divider">
@@ -95,6 +105,8 @@ pip install andi-datasets deeptrack
 
 
 ### Practice D - Final Practice
+
+*TODO*
 
 > **Python Notebook**
 
