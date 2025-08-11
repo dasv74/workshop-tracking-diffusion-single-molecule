@@ -2,18 +2,27 @@
 <img src="icons/icon.png" width="50"/> ![Badge](https://img.shields.io/badge/Workshop%20SMLMS%202025-FF1010?style=for-the-badge)
 # Single Molecule Tracking and Diffusion
 
- *[Daniel Sage](mailto:daniel.sage@epfl.ch?subject=Single%20Molecule%20Tracking%20and%20Diffusion), Ecole Polytechnique Fédérale de Lausanne, Switerzland*
+ *[Daniel Sage](mailto:daniel.sage@epfl.ch?subject=Single%20Molecule%20Tracking%20and%20Diffusion) — Ecole Polytechnique Fédérale de Lausanne, Switerzland*
 
-<img src="icons/red-line.svg" width="100%" height="3" alt="red divider">
+> This module complements the youngSMLMS 2025 workshop. 
 
-# Overview
-The hands-on is dedicated to the Single Molecule Tracking and Molecular Diffusion.
-Thera are complementary of the workshop
-bla bla
+<img src="icons/red-line.svg" width="100%" height="2" alt="red divider">
 
-<img src="icons/red-line.svg" width="100%" height="3" alt="red divider">
+<img src="icons/icon.png" width="50"/> ![Badge](https://img.shields.io/badge/Overview-FF1010?style=for-the-badge)
 
-# Installation
+This hands-on module guides you from raw image frames to quantitative single-particle diffusion analysis. Across four practices, you will:
+
+- **Analyze SMLM data in Fiji**
+- **Track particles** 
+- **Understand diffusion Model in Python**
+- **Integrate a SPT pipeline** 
+
+By the end, you’ll understand the full SMLM/SPT pipeline—localization, tracking, diffusion modeling, and quantitative readouts through simple examples.
+
+<img src="icons/red-line.svg" width="100%" height="2" alt="red divider">
+
+<img src="icons/icon.png" width="50"/> ![Badge](https://img.shields.io/badge/Installation-FF1010?style=for-the-badge)
+
 
 ### Setting-up Fiji
 
@@ -39,9 +48,9 @@ pip install andi-datasets deeptrack
 ```
 <br>
 
-<img src="icons/red-line.svg" width="100%" height="3" alt="red divider">
+<img src="icons/red-line.svg" width="100%" height="2" alt="red divider">
 
-# Hand-ons
+<img src="icons/icon.png" width="50"/> ![Badge](https://img.shields.io/badge/Hand--Ons-FF1010?style=for-the-badge)
 
 
 ### <img src="icons/icon-data-analysis.png" width="40"/> Practice A - SMLM Data Analysis 
