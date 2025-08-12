@@ -9,7 +9,13 @@
 
 > **On Fiji**
 
-- Handling sequences of Frames 
+
+- qdots, live histogram, surface plot all, hyperstack, B&C, reslice, projection, temporal proj., Volume viewer, peak finding, DoG macro
+- MT0-AS on QuickPALM
+  - Create Calibration Beads-AS-Exp.tif, ROI Manager, select 3 ROI manager, max FWHM=20, threshold=20, Z-spacing=10, smoothing=1, 3rd, save as TAB file and run the macro (z-correction) TAB -> TXT
+  - Analysis, setup: SNR=5, MAX FWHM=4, pixelsize=100, 3D, 30 nm
+3D, choose the calibration txt file
+  - 
 - Run QuickPALM
 - Run ThunderSTORM
 <br>
