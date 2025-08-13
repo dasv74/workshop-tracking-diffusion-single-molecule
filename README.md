@@ -1,4 +1,3 @@
-
 <img src="icons/icon.png" width="50"/> ![Badge](https://img.shields.io/badge/Workshop%20SMLMS%202025-FF1010?style=for-the-badge)
 # Single Molecule Tracking and Diffusion
 
@@ -10,7 +9,7 @@
 
 <img src="icons/icon.png" width="50"/> ![Badge](https://img.shields.io/badge/Overview-FF1010?style=for-the-badge)
 
-This hands-on module guides you from raw image frames to quantitative single-particle diffusion analysis. Across four practices, you will:
+This hands-on module guides you to the quantitative single-particle diffusion analysis. Across four practices, you will:
 
 - **Analyze SMLM data in Fiji**
 - **Track particles** 
@@ -24,27 +23,28 @@ By the end, you’ll understand the full SMLM/SPT pipeline—localization, track
 <img src="icons/icon.png" width="50"/> ![Badge](https://img.shields.io/badge/Installation-FF1010?style=for-the-badge)
 
 
-### Setting-up Fiji and plugins
+### Setting up Fiji
+> **Prerequisite:** A laptop with installation permissions.
 
-- Download Fiji from the web site: [https://fiji.sc/](https://fiji.sc/)
-- Update Fiji
-- Accept the conditions of security (depending of your OS)
-- Install ThunderSTORM [https://zitmen.github.io/thunderstorm/](https://zitmen.github.io/thunderstorm/)
-- Install GDSC: from the update WebSite of Fiji Help > Update ...
+1. Download Fiji from the official website: [https://fiji.sc/](https://fiji.sc/)  
+2. Update Fiji to the latest version.  
+3. Install ThunderSTORM: [https://zitmen.github.io/thunderstorm/](https://zitmen.github.io/thunderstorm/)  
 
 
-### Setting-up an environment to run Jupyter Notebooks
+### Setting up the Jupyter environment
 
-##### Running on a Google Colab server
+![Badge](https://img.shields.io/badge/Option_1-Using_Google_Colab_server-1000CF)
 
-- Connect to a Google account (gmail)
-- Run [https://colab.research.google.com](https://colab.research.google.com)
-- Upload the notebooks from this Github repo
-- File > Save a  copy in Drive
+> **Prerequisite:** A Google account (preferably private).
 
-##### Running on a local machine (conda)
+1. Open [Google Colab](https://colab.research.google.com)  
+2. Upload the notebooks from this GitHub repository.  
+3. Go to **File > Save a copy in Drive** to keep your own editable version.  
 
-Run the following command on the terminal:
+![Badge](https://img.shields.io/badge/Option_2-Using_local_computer-1000CF)
+
+> **Prerequisite:** A working Conda installation.
+
 ```
 conda create --name spt-diffusion python=3.11
 conda activate spt-diffusion
