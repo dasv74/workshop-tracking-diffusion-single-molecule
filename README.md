@@ -51,7 +51,7 @@ conda activate spt-diffusion
 
 pip install notebook
 pip install scikit-image scikit-learn
-pip install andi-datasets deeptrack
+pip install andi-datasets deeptrack trackpy
 
 jupyter notebook
 ```
@@ -94,23 +94,20 @@ jupyter notebook
 - Test the 5 models provided by the ANDI Challenge
 - Reference: https://github.com/AnDiChallenge/andi_datasets
 
+### Practice D - Estimation of Molecular Diffusion
 
 #### `classification_trajectory.ipynb`
-- Compute simple features
-- Random Forest
-
-<br>
-<hr>
+- Compute simple features of trajectory
+- Classify the trajectory using a Random Forest classifier
 
 
+#### `simple_single_particle_tracking.ipynb`
+- Simulation 2 groups of blinking particles (slow and fast diffusion) and generating corresponding noisy frames
+- Detection and tracking of particles 
+- Recover diffusion coefficient of the detected particles
 
-### Practice D - Final Practice
 
-*TODO*
-
-> **Python Notebook**
-
-- Simulation of trajectory
-- Generate noisy frames
-- Tracking particles
-- Compute MSD
+>**Exercise** 
+>- Accurate localization of particles and track them
+>- Recover diffusion coefficient of the localized particles
+> 
