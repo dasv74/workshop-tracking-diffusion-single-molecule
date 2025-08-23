@@ -94,7 +94,7 @@ jupyter notebook
 - Test the 5 models provided by the ANDI Challenge
 - Reference: https://github.com/AnDiChallenge/andi_datasets
 
-### Practice D - Estimation of Molecular Diffusion
+### <img src="icons/icon-algorithms.png" width="40"/> Practice D - Estimation of Molecular Diffusion
 
 #### `classification_trajectory.ipynb`
 - Compute simple features of trajectory

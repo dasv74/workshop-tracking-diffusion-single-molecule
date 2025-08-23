@@ -11,13 +11,17 @@
 
 
 - qdots, live histogram, surface plot all, hyperstack, B&C, reslice, projection, temporal proj., Volume viewer, peak finding, DoG macro
-- MT0-AS on QuickPALM
-  - Create Calibration Beads-AS-Exp.tif, ROI Manager, select 3 ROI manager, max FWHM=20, threshold=20, Z-spacing=10, smoothing=1, 3rd, save as TAB file and run the macro (z-correction) TAB -> TXT
-  - Analysis, setup: SNR=5, MAX FWHM=4, pixelsize=100, 3D, 30 nm
-3D, choose the calibration txt file
-  - 
-- Run QuickPALM
-- Run ThunderSTORM
+- 2D: Demo NPC-5000 ThunderSTORM
+  - DoG 2/3 Local Max 
+  - PSF Gaussian fitting 3 / weighted / 1.6
+  - Visu Normalized Gaussian x10
+  - Drift correction
+- 3D: Demo MT0-AS-5000frames // QuickPALM
+  - Create Calibration Beads-AS-Exp.tif, ROI Manager, select 3 ROI manager, max FWHM=20, threshold=20, model line, Z-spacing=10, smoothing=1, 3rd, save as CVS file
+  - run the macro (z-correction) CSV -> TXT
+  - Analysis, setup: SNR=1, MAX FWHM=4, no smart SNR, 3D, No stream file, pixelsize=100, 3D, 30 nm
+  - Visualization as scatter plot in3D
+
 <br>
 <hr>
 
@@ -25,7 +29,12 @@
 
 > **On Fiji**
 - TrackMate
-
+  - requej0-104.tif
+  - DoG 3 / 150
+  - See spots, quality 0-500
+  - LAP 15 + no gap
+  - Display options: show tracks local in time, fade 10
+  - plot
 <br>
 <hr>
  
@@ -43,7 +52,7 @@
 - Reference: https://github.com/AnDiChallenge/andi_datasets
 
 
-### Practice D - Estimation of Molecular Diffusion
+### <img src="icons/icon-algorithms.png" width="40"/> Practice D - Estimation of Molecular Diffusion
 
 #### `classification_trajectory.ipynb`
 - Compute simple features of trajectory
