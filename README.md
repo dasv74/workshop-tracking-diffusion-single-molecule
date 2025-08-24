@@ -67,16 +67,16 @@ jupyter notebook
 
 > **On Fiji**
 
-- Handling sequences of Frames 
-- Run QuickPALM
-- Run ThunderSTORM
+- Handling sequences of Frames — Fiji commances
+- 2D SMLMS — ThunderSTORM
+- Demo 3D — QuickPALM
 <br>
 <hr>
 
 ### <img src="icons/icon-particle-tracking.png" width="40"/> Practice B - Particle Tracking
 
 > **On Fiji**
-- TrackMate
+- Tracking of molecules — TrackMate
 
 <br>
 <hr>
