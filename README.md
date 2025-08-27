@@ -90,7 +90,7 @@ jupyter notebook
 - Anisotropic Brownian Motion
 - Non-homogeneous Brownian Motion
 
-#### `simulation_anamalous_diffusion.ipynb`
+#### `simulation_anomalous_diffusion.ipynb`
 - Test the 5 models provided by the ANDI Challenge
 - Reference: https://github.com/AnDiChallenge/andi_datasets
 
